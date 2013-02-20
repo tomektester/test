@@ -1,7 +1,7 @@
 import unittest
 
 class BasicTest(unittest.TestCase):
-    def setup(self):
+    def setUp(self):
         pass
 
     def tearDown(self):
@@ -9,3 +9,6 @@ class BasicTest(unittest.TestCase):
 
     def test_1(self):
         self.assertEqual(1,1)
+
+    def test_2(self):
+        self.assertEqual(2,1)
